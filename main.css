@@ -1,0 +1,234 @@
+body {
+    font-family: "Lato", "Helvetica";
+    font-weight: 100;
+}
+
+nav a {
+    font-weight: 300;
+}
+
+nav span {
+    font-weight: 300;
+}
+
+#for-sm {
+    display: none;
+}
+
+#for-lg{
+    display: inline;
+}
+
+#hero {
+    background-image: url("tools.jpg");
+    height: 825px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    
+}
+
+#headline {
+    text-align: center;
+    padding-top: 350px;
+    /* padding-left: 35%; */
+    font-family: 'Lato', 'Helvetica';
+    font-weight: 100;
+}
+
+#headline h1 {
+    padding: 3%;
+    font-family: 'Lato', 'Helvetica';
+    font-weight: 100;
+}
+
+#headline h3 {
+    padding-bottom: 3%;
+    font-family: 'Lato', 'Helvetica';
+    font-weight: 100;
+}
+
+
+#about {
+    height: 450px;
+    padding-top: 3em;
+    background-color: rgb(236, 240, 241);
+    color: #6C7A89;
+}
+
+#about h3 {
+    padding-bottom: 1em;
+    text-align: center;
+    font-weight: 100;
+}
+#about p {
+    line-height: 2em;
+    font-weight: 300;
+}
+
+
+#services {
+    height: 600px;
+    padding: 6% 0 5% 2%;
+    background-color:#6C7A89;
+    margin: 0;
+}
+
+
+
+#services h3 {
+    padding-left: 14%;
+    padding-top: 2%;
+    color:  rgb(210, 215, 211); 
+    font-size: 2.25em;
+    font-weight: 100;
+    width: 10em;
+    text-align: center;
+}
+
+.services-title:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 90%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid rgb(210, 215, 211); /* This creates the border. Replace black with whatever color you want. */
+}
+
+#services-list {
+    list-style: none;
+    padding-left: 17%;
+    padding-top: 2%;
+    color:  rgb(210, 215, 211); 
+    font-size: 2em;
+    line-height: 2em;
+}
+
+#benefits {
+    width: 100%;
+    height: 600px;
+    padding-top: 5%;
+    background-color: rgb(236, 240, 241);
+    color: #6C7A89;
+}
+
+#benefits h3 {
+    text-align: center;
+    padding-bottom: 5%;
+    font-weight: 100;
+    font-size: 3em;
+}
+
+#map {
+    height: 600px;
+    background-color: #D2D7D3;
+}
+
+#map form {
+    padding-top: 10%;
+}
+
+#map iframe {
+    padding-top: 10%;
+    height: 90%;
+}
+
+#reviews {
+    width: 100%;
+    height: 800px;
+    padding-top: 5%;
+    background-color: rgb(236, 240, 241);
+    color: #6C7A89;
+}
+
+#reviews h3 {
+    text-align: center;
+    padding-bottom: 10%;
+    font-weight: 100;
+    font-size: 3em;
+}
+
+
+
+footer {
+    background-color: #6C7A89;
+    width: 100%;
+    height: 300px;
+}
+
+@media (max-width: 575.98px) { 
+    #for-sm {
+        display: inline;
+    }
+    
+    #for-lg{
+        display: none;
+    }
+
+    #hero {
+        height: 700px;
+    }
+
+    #headline {
+        padding-top: 175px;
+    }
+    
+    #headline h3 {
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+
+    #about{
+        height: 1050px;
+    }
+    #about h3 {
+        padding: 2%;
+    }
+    
+    #services{
+        height: 500px;
+    }
+
+    #services h3{
+        padding-left:0;
+    }
+
+    .services-title:after {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 60%; /* Change this to whatever width you want. */
+        padding-top: 20px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid rgb(210, 215, 211); /* This creates the border. Replace black with whatever color you want. */
+    }
+
+    #services-list{
+        line-height: 2.25em;
+        padding-left: 0;
+        font-size: 2em;
+    }
+
+    #fluid-img{
+        display: none;
+    }
+
+    #benefits{
+        height: 1200px;
+        padding-left: 9%;
+    }
+
+    #benefits h3 {
+        padding-right: 10%;
+    }
+
+    #benefits .card {
+        margin-bottom: 10%;
+    }
+
+    footer {
+        height: 200px;
+    }
+ }
