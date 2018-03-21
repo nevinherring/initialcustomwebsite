@@ -17,6 +17,7 @@ nav span {
 
 #for-lg{
     display: inline;
+    padding-left: 13em;
 }
 
 #hero {
@@ -226,6 +227,23 @@ footer {
 
     #benefits .card {
         margin-bottom: 10%;
+    }
+
+    #map {
+        height: 1200px;
+    }
+
+    #reviews {
+        height: 1500px;
+        padding-left: 11%;
+    }
+
+    #reviews h3 {
+        padding-right: 10%;
+    }
+
+    #reviews .card {
+        margin-bottom: 5%;
     }
 
     footer {
