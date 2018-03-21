@@ -11,6 +11,10 @@ nav span {
     font-weight: 300;
 }
 
+nav .nav-item:hover {
+    border-bottom: #6C7A89 2px solid;
+}
+
 #for-sm {
     display: none;
 }
@@ -134,7 +138,11 @@ nav span {
 
 #map iframe {
     padding-top: 10%;
-    height: 90%;
+    margin-left: 10%;
+}
+
+#map .map-show-sm {
+    display: none;
 }
 
 #reviews {
@@ -231,6 +239,14 @@ footer {
 
     #map {
         height: 1200px;
+    }
+
+    #map .map-show-lg {
+        display: none;
+    }
+
+    #map .map-show-sm {
+        display: block;
     }
 
     #reviews {
