@@ -1,6 +1,5 @@
 body {
     font-family: "Lato", "Helvetica";
-<<<<<<< HEAD
     font-weight: 100;
 }
 
@@ -23,12 +22,6 @@ nav span {
 
 #hero {
     background-image: url("tools.jpg");
-=======
-}
-
-#hero {
-    background-image: url("trees1.jpg");
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
     height: 825px; 
     background-position: center;
     background-repeat: no-repeat;
@@ -36,44 +29,31 @@ nav span {
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
-<<<<<<< HEAD
     
-=======
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
 }
 
 #headline {
     text-align: center;
     padding-top: 350px;
     /* padding-left: 35%; */
-<<<<<<< HEAD
     font-family: 'Lato', 'Helvetica';
     font-weight: 100;
-=======
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
 }
 
 #headline h1 {
     padding: 3%;
-<<<<<<< HEAD
     font-family: 'Lato', 'Helvetica';
     font-weight: 100;
-=======
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
 }
 
 #headline h3 {
     padding-bottom: 3%;
-<<<<<<< HEAD
     font-family: 'Lato', 'Helvetica';
     font-weight: 100;
-=======
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
 }
 
 
 #about {
-<<<<<<< HEAD
     height: 450px;
     padding-top: 3em;
     background-color: rgb(236, 240, 241);
@@ -88,35 +68,16 @@ nav span {
 #about p {
     line-height: 2em;
     font-weight: 300;
-=======
-    height: 500px;
-    padding-top: 3em;
-    background-color: rgb(236, 240, 241);
-    color: #5cb85c;
-}
-
-#about h3 {
-    padding-bottom: 2em;
-    text-align: center;
-}
-#about p {
-    line-height: 2em;
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
 }
 
 
 #services {
     height: 600px;
-<<<<<<< HEAD
     padding: 6% 0 5% 2%;
-=======
-    padding: 5% 0 5% 2%;
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
     background-color:#6C7A89;
     margin: 0;
 }
 
-<<<<<<< HEAD
 
 
 #services h3 {
@@ -136,30 +97,15 @@ nav span {
     width: 90%; /* Change this to whatever width you want. */
     padding-top: 20px; /* This creates some space between the element and the border. */
     border-bottom: 1px solid rgb(210, 215, 211); /* This creates the border. Replace black with whatever color you want. */
-=======
-#services h3 {
-    padding-left: 14%;
-    padding-top: 3%;
-    color:  rgb(210, 215, 211); 
-    font-size: 2.25em;
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
 }
 
 #services-list {
     list-style: none;
-<<<<<<< HEAD
     padding-left: 17%;
     padding-top: 2%;
     color:  rgb(210, 215, 211); 
     font-size: 2em;
     line-height: 2em;
-=======
-    padding-left: 15%;
-    padding-top: 3%;
-    color:  rgb(210, 215, 211); 
-    font-size: 2.25em;
-    line-height: 2.5em;
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
 }
 
 #benefits {
@@ -167,17 +113,12 @@ nav span {
     height: 600px;
     padding-top: 5%;
     background-color: rgb(236, 240, 241);
-<<<<<<< HEAD
     color: #6C7A89;
-=======
-    color: #5cb85c;
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
 }
 
 #benefits h3 {
     text-align: center;
     padding-bottom: 5%;
-<<<<<<< HEAD
     font-weight: 100;
     font-size: 3em;
 }
@@ -213,10 +154,6 @@ nav span {
 
 
 
-=======
-}
-
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
 footer {
     background-color: #6C7A89;
     width: 100%;
@@ -224,7 +161,6 @@ footer {
 }
 
 @media (max-width: 575.98px) { 
-<<<<<<< HEAD
     #for-sm {
         display: inline;
     }
@@ -239,10 +175,6 @@ footer {
 
     #headline {
         padding-top: 175px;
-=======
-    #headline {
-        padding-top: 200px;
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
     }
     
     #headline h3 {
@@ -265,7 +197,6 @@ footer {
         padding-left:0;
     }
 
-<<<<<<< HEAD
     .services-title:after {
         content: ""; /* This is necessary for the pseudo element to work. */ 
         display: block; /* This will put the pseudo element on its own line. */
@@ -279,11 +210,6 @@ footer {
         line-height: 2.25em;
         padding-left: 0;
         font-size: 2em;
-=======
-    #services-list{
-        line-height: 2.25em;
-        padding-left: 0;
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
     }
 
     #fluid-img{
@@ -303,7 +229,6 @@ footer {
         margin-bottom: 10%;
     }
 
-<<<<<<< HEAD
     #map {
         height: 1200px;
     }
@@ -321,8 +246,6 @@ footer {
         margin-bottom: 5%;
     }
 
-=======
->>>>>>> 07b6b704abea7b78af4c89a2722814ac26acfc35
     footer {
         height: 200px;
     }
